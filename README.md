@@ -1,5 +1,9 @@
 # Predicting Hospital Disposition for EMS Patients with Suspected Opioid Overdose
 
+![Naloxone (Narcan) - Opioid Overdose Rescue Drug](../src/images/narcan.jpg)
+
+> **Image Credit**: Naloxone (Narcan) image sourced from [Harvard Health Publishing – Should you carry the opioid overdose rescue drug naloxone?](https://www.health.harvard.edu/blog/should-you-carry-the-opioid-overdose-rescue-drug-naloxone-2018050413773)
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
