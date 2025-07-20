@@ -167,7 +167,7 @@ Use of the NEMSIS dataset is subject to strict conditions outlined by the Nation
 
 ## Environment & Reproducibility
 
-This project was developed using a custom **conda environment**. A full [src/environment.yml](src/environment.yml) file is included for reproducibility. Key packages include:
+This project was developed using a custom **conda environment**. A full [environment.yml](src/environment.yml) file is included for reproducibility. Key packages include:
 
 - `pandas`, `numpy`
 - `xgboost`
