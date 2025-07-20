@@ -83,6 +83,23 @@ Use of the NEMSIS dataset is subject to strict conditions outlined by the Nation
   - Recall (Class 1 - Admitted): **0.81**
   - ROC AUC: **0.91**
 
+**Confusion Matrix**
+
+![Confusion Matrix](../outputs/figures/confusion_matrix_tuned_xgb.png)
+
+**Classification Report**
+
+**Classification Report**
+
+| Class               | Precision | Recall | F1-score | Support |
+|--------------------|-----------|--------|----------|---------|
+| Discharged/AMA     | 0.80      | 0.86   | 0.83     | 529     |
+| Admit/Transfer/Dead| 0.87      | 0.81   | 0.84     | 607     |
+
+**ROC Curve**
+
+![ROC Curve](../outputs/figures/tuned_xgb_roc_curve.png)
+
 ### Evaluation & Interpretability
 
 - Evaluated performance using precision, recall, F1-score, and confusion matrix.
@@ -93,6 +110,22 @@ Use of the NEMSIS dataset is subject to strict conditions outlined by the Nation
   - Cardiac arrest events
   - Patient age and payment method
   - Systolic blood pressure and heart rate
+
+**XGBoost Feature Importance (Top 20 by Gain)**
+
+![XGBoost Gain](../outputs/figures/xgb_feature_importance.png)
+
+**SHAP Summary Plot**
+
+![SHAP Beeswarm](../outputs/figures/shap_beeswarm.png)
+
+**SHAP Bar Plot**
+
+![SHAP Bar](../outputs/figures/shap_bar.png)
+
+**SHAP Local Waterfall (Example)**
+
+![SHAP Waterfall](../outputs/figures/shap_local_waterfall.png)
 
 ---
 
@@ -121,3 +154,13 @@ To recreate the environment:
 ```bash
 conda env create -f environment.yml
 conda activate nemsis-env
+```
+
+---
+
+## Acknowledgments
+
+This project utilized the 2023 NEMSIS Public Release Research Dataset.  
+Credit:  
+**National Highway Traffic Safety Administration, National Emergency Medical Services Information System (NEMSIS).**  
+All analyses and opinions are those of the author and do not reflect the views of the U.S. Department of Transportation or NEMSIS TAC.
