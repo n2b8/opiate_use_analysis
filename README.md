@@ -85,7 +85,7 @@ Use of the NEMSIS dataset is subject to strict conditions outlined by the Nation
 
 **Confusion Matrix**
 
-![Confusion Matrix](/outputs/figures/confusion_matrix_tuned_xgb.png)
+![ROC Curve](outputs/figures/confustion_matrix_tuned_xgb.png)
 
 **Classification Report**
 
@@ -98,7 +98,7 @@ Use of the NEMSIS dataset is subject to strict conditions outlined by the Nation
 
 **ROC Curve**
 
-![ROC Curve](outputs/figures/confustion_matrix_tuned_xgb.png)
+![ROC Curve](outputs/figures/tuned_xgb_roc_curve.png)
 
 ### Evaluation & Interpretability
 
