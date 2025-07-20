@@ -139,6 +139,31 @@ Use of the NEMSIS dataset is subject to strict conditions outlined by the Nation
 
 ---
 
+## File Structure
+
+- **[notebooks/01_data_collection_subsetting.ipynb](notebooks/01_data_collection_subsetting.ipynb)**  
+  Jupyter notebook documenting the full data extraction and enrichment process from raw NEMSIS files.
+
+- **[notebooks/02_analysis_modeling.ipynb](notebooks/02_analysis_modeling.ipynb)**  
+  Primary analysis notebook following the CRISP-DM framework: includes modeling, evaluation, and interpretation.
+
+- **[outputs/figures](outputs/figures)**  
+  Folder containing all saved visualizations used throughout the analysis.
+
+- **[src/images/narcan.jpg](src/images/narcan.jpg)**  
+  Title image used at the top of the README.
+
+- **[src/presentation.pdf](src/presentation.pdf)**  
+  Final presentation slide deck summarizing key findings and recommendations.
+
+- **[README.md](README.md)**  
+  This document.
+
+- **[.gitignore](.gitignore)**  
+  Standard gitignore file to exclude intermediate files, outputs, and environment configs.
+
+---
+
 ## Environment & Reproducibility
 
 This project was developed using a custom **conda environment**. A full `environment.yml` file is included for reproducibility. Key packages include:
