@@ -1,6 +1,6 @@
 # Predicting Hospital Disposition for EMS Patients with Suspected Opioid Overdose
 
-![Naloxone (Narcan) - Opioid Overdose Rescue Drug](../src/images/narcan.jpg)
+![Naloxone (Narcan) - Opioid Overdose Rescue Drug](/src/images/narcan.jpg)
 
 > **Image Credit**: Naloxone (Narcan) image sourced from [Harvard Health Publishing – Should you carry the opioid overdose rescue drug naloxone?](https://www.health.harvard.edu/blog/should-you-carry-the-opioid-overdose-rescue-drug-naloxone-2018050413773)
 
@@ -85,7 +85,7 @@ Use of the NEMSIS dataset is subject to strict conditions outlined by the Nation
 
 **Confusion Matrix**
 
-![Confusion Matrix](../outputs/figures/confusion_matrix_tuned_xgb.png)
+![Confusion Matrix](/outputs/figures/confusion_matrix_tuned_xgb.png)
 
 **Classification Report**
 
@@ -98,7 +98,7 @@ Use of the NEMSIS dataset is subject to strict conditions outlined by the Nation
 
 **ROC Curve**
 
-![ROC Curve](../outputs/figures/tuned_xgb_roc_curve.png)
+![ROC Curve](/outputs/figures/tuned_xgb_roc_curve.png)
 
 ### Evaluation & Interpretability
 
@@ -113,19 +113,19 @@ Use of the NEMSIS dataset is subject to strict conditions outlined by the Nation
 
 **XGBoost Feature Importance (Top 20 by Gain)**
 
-![XGBoost Gain](../outputs/figures/xgb_feature_importance.png)
+![XGBoost Gain](/outputs/figures/xgb_feature_importance.png)
 
 **SHAP Summary Plot**
 
-![SHAP Beeswarm](../outputs/figures/shap_beeswarm.png)
+![SHAP Beeswarm](/outputs/figures/shap_beeswarm.png)
 
 **SHAP Bar Plot**
 
-![SHAP Bar](../outputs/figures/shap_bar.png)
+![SHAP Bar](/outputs/figures/shap_bar.png)
 
 **SHAP Local Waterfall (Example)**
 
-![SHAP Waterfall](../outputs/figures/shap_local_waterfall.png)
+![SHAP Waterfall](/outputs/figures/shap_local_waterfall.png)
 
 ---
 
