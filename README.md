@@ -89,8 +89,6 @@ Use of the NEMSIS dataset is subject to strict conditions outlined by the Nation
 
 **Classification Report**
 
-**Classification Report**
-
 | Class               | Precision | Recall | F1-score | Support |
 |--------------------|-----------|--------|----------|---------|
 | Discharged/AMA     | 0.80      | 0.86   | 0.83     | 529     |
@@ -156,6 +154,9 @@ Use of the NEMSIS dataset is subject to strict conditions outlined by the Nation
 - **[src/presentation.pdf](src/presentation.pdf)**  
   Final presentation slide deck summarizing key findings and recommendations.
 
+- **[src/environment.yml](src/environment.yml)**  
+  Export of my Conda environment for reproducibility
+  
 - **[README.md](README.md)**  
   This document.
 
@@ -166,7 +167,7 @@ Use of the NEMSIS dataset is subject to strict conditions outlined by the Nation
 
 ## Environment & Reproducibility
 
-This project was developed using a custom **conda environment**. A full `environment.yml` file is included for reproducibility. Key packages include:
+This project was developed using a custom **conda environment**. A full [src/environment.yml](src/environment.yml) file is included for reproducibility. Key packages include:
 
 - `pandas`, `numpy`
 - `xgboost`
