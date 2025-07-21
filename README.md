@@ -181,6 +181,7 @@ This project was developed using a custom **conda environment**. A full [environ
 To recreate the environment:
 
 ```bash
+cd src
 conda env create -f environment.yml
 conda activate nemsis-env
 ```
