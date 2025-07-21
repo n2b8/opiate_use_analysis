@@ -1,6 +1,9 @@
 # Ignore raw data
 data/raw/
 
+# Ignore keynote file
+src/presendation.key
+
 # MinIO credentials
 credentials.py
 

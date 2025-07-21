@@ -4,6 +4,8 @@
 
 > **Image Credit**: Naloxone (Narcan) image sourced from [Harvard Health Publishing – Should you carry the opioid overdose rescue drug naloxone?](https://www.health.harvard.edu/blog/should-you-carry-the-opioid-overdose-rescue-drug-naloxone-2018050413773)
 
+---
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -16,6 +18,7 @@
   - [Modeling](#modeling)
   - [Evaluation & Interpretability](#evaluation--interpretability)
 - [Recommendations, Conclusions & Future Work](#recommendations-conclusions--future-work)
+- [File Structure](#file-structure)
 - [Environment & Reproducibility](#environment--reproducibility)
 
 ---
